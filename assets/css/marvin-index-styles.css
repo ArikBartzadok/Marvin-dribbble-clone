@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #c4c4c4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marvin-index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 95%;
+    height: 95%;
+}
+.box-left {
+    width: 350px;
+    height: 100%;
+    background-color: #e6e6e6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    padding: 2.5em;
+}
+.box-left .github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box-left .github img {
+    width: 50px;
+}
+.box-left .github a {
+    margin-left: .5rem;
+    text-decoration: none;
+    color: black;
+}
+.box-left .github .username {
+    font-size: 1.2rem;
+}
+.box-left .description {
+    font-size: 1rem;
+}
+.box-left .description .logo {
+    font-weight: bold;
+}
+.box-left .description .logo a {
+    text-decoration: none;
+    color: black;
+}
+.box-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card {
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    background-color: #eeeeee;
+    border-radius: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: 1s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card a {
+    padding: 1em;
+    color: #fff;
+    background-color: rgb(0,219,201);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1em;
+
+    transition: 1s;
+}
+.card a:hover {
+    background-color: rgb(0, 189, 173);
+}
+.card img {
+    width: 200px;
+    border-radius: .8em;
+    padding: .5em;
+}
