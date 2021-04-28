@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #c4c4c4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marvin-two{
+    width: 95%;
+    height: 95%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box-one {
+    width: 50%;
+    height: 100%;
+    background: rgb(0,219,201);
+    background: linear-gradient(162deg, rgba(0,219,201,1) 0%, rgba(0,219,201,1) 30%, rgba(42,51,255,1) 100%);
+    border-top-left-radius: 3em;
+}
+.box-one .page {
+
+}
+.box-one .page .page-number {
+    font-size: 1.5rem;
+    padding: 1.3em;
+    color: #fff;
+}
+.box-two {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-top-right-radius: 3em;
+}
+.box-three {
+    width: 50%;
+    height: 100%;
+    background-color: #141d3a;
+    border-bottom-left-radius: 3em;
+}
+.box-four {
+    width: 50%;
+    height: 100%;
+    background-color: #e6e6e6;
+    border-bottom-right-radius: 3em;
+}
